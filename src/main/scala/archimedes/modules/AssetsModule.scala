@@ -3,27 +3,6 @@ package archimedes.modules
 import archimedes.{Metrics, NettyHttpModel, NettyHttpResponseModel}
 
 /**
-  *
-  *
-htmlCount: number of HTML responses
-htmlSize: size of HTML responses
-cssCount: number of CSS responses
-cssSize: size of CSS responses
-jsCount: number of JS responses
-jsSize: size of JS responses
-jsonCount: number of JSON responses
-jsonSize: size of JSON responses
-imageCount: number of image responses
-imageSize: size of image responses
-webfontCount: number of web font responses
-webfontSize: size of web font responses
-videoCount: number of video responses
-videoSize: size of video responses
-base64Count: number of base64 encoded "responses" (no HTTP request was actually made)
-base64Size: size of base64 encoded "responses"
-otherCount: number of other responses
-otherSize: size of other responses
-
   * Created by waseemh on 11/25/16.
   */
 class AssetsModule extends NettySubscriberModule {

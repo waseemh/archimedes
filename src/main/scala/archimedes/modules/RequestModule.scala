@@ -8,17 +8,6 @@ import io.netty.handler.codec.http.HttpMethod
 import scala.util.{Failure, Success, Try}
 
 /**
-  * requests: total number of HTTP requests made
-gzipRequests: number of gzipped HTTP responses
-postRequests: number of POST requests
-httpsRequests: number of HTTPS requests
-notFound: number of HTTP 404 responses
-timeToFirstByte: time it took to receive the first byte of the first response (that was not a redirect)
-timeToLastByte: time it took to receive the last byte of the first response (that was not a redirect)
-bodySize: size of the content of all responses
-contentLength: size of the content of all responses (based on Content-Length header)
-httpTrafficCompleted: time it took to receive the last byte of the last HTTP response
-  * Observer
   *
   * Created by waseemh on 11/23/16.
   */

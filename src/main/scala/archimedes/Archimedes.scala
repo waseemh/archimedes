@@ -61,7 +61,6 @@ class Archimedes {
       }
     })
 
-    System.setProperty("webdriver.chrome.driver", "/Users/waseemh/Downloads/chromedriver 2");
     val webdriver = new FirefoxDriver(capabilities);
 
     webdriver.get(url);
